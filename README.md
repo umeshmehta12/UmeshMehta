@@ -12,7 +12,7 @@
 
 
 
-<p align="left"> <a href="https://twitter.com/umeshmehta99" target="blank"><img src="https://img.shields.io/twitter/follow/sunitaa2003?logo=twitter&style=for-the-badge" alt="umeshmehta99" /></a> </p>
+<p align="left"> <a href="https://twitter.com/umeshmehta99" target="blank"><img src="https://img.shields.io/twitter/follow/umeshmehta99?logo=twitter&style=for-the-badge" alt="umeshmehta99" /></a> </p>
 
 - 🌱 I’m currently learning **DSA ,.NET & AI**
 
