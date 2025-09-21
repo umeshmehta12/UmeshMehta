@@ -1,7 +1,5 @@
 <!--![MasterHead](https://www.sevenstarwebsolutions.com/wp-content/themes/sevenstar/img/banner-bg.gif)-->
-<!--[![MasterHead](https://user-images.githubusercontent.com/97103333/223966150-91dff73d-9dcd-4489-9cf4-67a7824fc536.gif)](https://mrfoxak.io/)-->
-[![MyHeader](https://media.giphy.com/media/xT9IgG50Fb7Mi0prBC/giphy.gif)](https://mrfoxak.io/)
-
+[![MasterHead](https://user-images.githubusercontent.com/97103333/223966150-91dff73d-9dcd-4489-9cf4-67a7824fc536.gif)](https://mrfoxak.io/)
 
 
  <h1 align="center">Hi 👋, I'm Umesh Mehta</h1>
