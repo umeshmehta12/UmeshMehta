@@ -1,6 +1,6 @@
 <!--![MasterHead](https://www.sevenstarwebsolutions.com/wp-content/themes/sevenstar/img/banner-bg.gif)-->
 <!--[![MasterHead](https://user-images.githubusercontent.com/97103333/223966150-91dff73d-9dcd-4489-9cf4-67a7824fc536.gif)](https://mrfoxak.io/)-->
-[![MasterHead](https://github.com/yourusername/yourrepository/blob/main/path/to/your.gif)](https://your-portfolio-link.com)
+[![MyHeader](https://media.giphy.com/media/xT9IgG50Fb7Mi0prBC/giphy.gif)](https://mrfoxak.io/)
 
 
 
