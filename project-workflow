@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Workflow</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #1e1e2f, #2c2c54);
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      padding: 40px 20px;
+    }
+    h1 {
+      margin-bottom: 50px;
+      font-size: 2.5rem;
+      color: #00f2fe;
+      text-align: center;
+    }
+    .timeline {
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      max-width: 1200px;
+      overflow-x: auto;
+    }
+    .step {
+      background: #3a3a6a;
+      border-radius: 50%;
+      width: 120px;
+      height: 120px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 20px;
+      position: relative;
+      transition: transform 0.3s;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+      z-index: 2;
+    }
+    .step:hover {
+      transform: scale(1.1);
+      background: #5050a5;
+    }
+    .step i {
+      font-size: 30px;
+      margin-bottom: 10px;
+      color: #00f2fe;
+    }
+    .step span {
+      font-size: 14px;
+      font-weight: bold;
+      text-align: center;
+    }
+    .tooltip {
+      display: none;
+      position: absolute;
+      bottom: -45px;
+      background: rgba(0,0,0,0.8);
+      padding: 8px 12px;
+      border-radius: 6px;
+      font-size: 12px;
+      white-space: nowrap;
+    }
+    .step:hover .tooltip {
+      display: block;
+    }
+
+    /* Connector Line */
+    .line {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      height: 4px;
+      background: linear-gradient(90deg, #00f2fe, #4facfe);
+      z-index: 1;
+      animation: drawLine 4s linear forwards;
+      border-radius: 2px;
+    }
+    @keyframes drawLine {
+      from { width: 0; }
+      to { width: 100%; }
+    }
+
+    /* Responsive */
+    @media(max-width: 768px) {
+      .timeline {
+        flex-direction: column;
+        align-items: center;
+      }
+      .line {
+        top: 0;
+        left: 50%;
+        width: 4px;
+        height: 0;
+        animation: drawLineVertical 4s linear forwards;
+      }
+      @keyframes drawLineVertical {
+        from { height: 0; }
+        to { height: 100%; }
+      }
+      .tooltip {
+        bottom: auto;
+        top: 135px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>🚀 Project Workflow</h1>
+  <div class="timeline">
+    <div class="line"></div>
+    <div class="step">
+      <i class="fas fa-search"></i>
+      <span>Research</span>
+      <div class="tooltip">Market & problem research</div>
+    </div>
+    <div class="step">
+      <i class="fas fa-lightbulb"></i>
+      <span>Idea</span>
+      <div class="tooltip">Brainstorming and innovation</div>
+    </div>
+    <div class="step">
+      <i class="fas fa-pen"></i>
+      <span>Planning</span>
+      <div class="tooltip">Define goals & roadmap</div>
+    </div>
+    <div class="step">
+      <i class="fas fa-object-group"></i>
+      <span>Wireframe</span>
+      <div class="tooltip">Basic layout structure</div>
+    </div>
+    <div class="step">
+      <i class="fas fa-flask"></i>
+      <span>Prototype</span>
+      <div class="tooltip">Interactive sample</div>
+    </div>
+    <div class="step">
+      <i class="fas fa-paint-brush"></i>
+      <span>Design</span>
+      <div class="tooltip">UI/UX visuals</div>
+    </div>
+    <div class="step">
+      <i class="fas fa-code"></i>
+      <span>Development</span>
+      <div class="tooltip">Build the product</div>
+    </div>
+    <div class="step">
+      <i class="fas fa-check-circle"></i>
+      <span>Testing</span>
+      <div class="tooltip">Bug fixing & QA</div>
+    </div>
+    <div class="step">
+      <i class="fas fa-rocket"></i>
+      <span>Deployment</span>
+      <div class="tooltip">Release to users</div>
+    </div>
+    <div class="step">
+      <i class="fas fa-sync-alt"></i>
+      <span>Maintenance</span>
+      <div class="tooltip">Continuous improvement</div>
+    </div>
+  </div>
+</body>
+</html>
